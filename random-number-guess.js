@@ -13,7 +13,7 @@ if (parseInt(guess) === randomNumber) {
   else if (parseInt(guess) > randomNumber) {
     var guessLess = prompt ("Try again. The number is less than " + guess);
     if (parseInt(guessLess)===randomNumber) {correctGuess = true;}
-  }
+  }  
 
 if (correctGuess){
   document.write("<p> You guessed the number. Congrats!</p>");
